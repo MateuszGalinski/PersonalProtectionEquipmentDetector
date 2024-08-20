@@ -1,0 +1,13 @@
+train: C:/Users/LocalAdminUser02/Desktop/PPEDetection/dataset_goggles/train/images
+val: C:/Users/LocalAdminUser02/Desktop/PPEDetection/dataset_goggles/valid/images
+test: C:/Users/LocalAdminUser02/Desktop/PPEDetection/dataset_goggles/test/images
+
+nc: 7
+names: ['Person', 'goggles', 'helmet', 'no-goggles', 'no-helmet', 'no-vest', 'vest']
+
+roboflow:
+  workspace: ai-camp-safety-equipment-detection
+  project: ppe-detection-using-cv
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-camp-safety-equipment-detection/ppe-detection-using-cv/dataset/3
